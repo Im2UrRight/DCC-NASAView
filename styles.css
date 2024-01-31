@@ -1,0 +1,144 @@
+/* CSS Document */
+body {
+    margin: 0px;
+    font-size: 13px;
+    line-height: 21px;
+    color: #fff;
+    background-color: #000;
+    padding: 0px;
+    font-weight: 300;
+/*    background-image: url("images/");
+    background-repeat: no-repeat;
+    background-position: center bottom;
+    background-size: contain;*/
+    font-family: Gotham, "Helvetica Neue", Helvetica, Arial, sans-serif;
+}
+a {
+    text-decoration: none;
+    color: #5D7FB9;
+}
+a:hover {
+    text-decoration: underline;
+}
+nav {
+    height: 35px;
+    width: 100%;
+    margin: 0px auto 0px auto;
+    padding: 15px 10px 0px 0px;
+    border-bottom: 3px solid #000000;
+    border-top-color: #000000;
+    border-right-color: #000000;
+    border-left-color: #000000;
+}
+nav ul {
+	width: auto;
+	margin: 0px;
+	padding: 0px;
+	padding-right: 15px;
+	padding-top: 5px;
+	float: right;
+	
+}
+nav li {
+	width: auto;
+	display: inline-block;
+	list-style-type: none;
+	text-align: left;
+	
+}
+nav a {
+	position: relative;
+    margin: 25px 0px 0px 5px;
+    padding: 12px 20px 5px 40px;
+    color: #fff;
+    font-size: 20px;
+    text-shadow: 2px 2px 5px #000000;
+}
+nav a::before {
+	content: "";
+	position: absolute;
+    top: 0px;
+    right: 0px;
+    bottom: 0px;
+    left: 0px;
+    background-position: right center;
+    background-repeat: no-repeat;
+    background-image: url("images/space-travel-small.png");
+    opacity: .65;
+}
+nav a:hover::before {
+	opacity: 1;
+}
+nav a:hover {
+	text-decoration: none;
+}
+header {
+    height: 290px;
+    width: 100%;
+    margin: 0px auto 0px auto;
+    padding: 50px 0px 5px 0px;
+    border-bottom: 2px solid #E24B38;
+    float: left;
+    text-align: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+	background-image: url("images/5052127179_39ce508464_o.jpg");
+}
+.centered-section {
+	width: 1000px;
+	margin: 0px auto 0px auto;
+	align-items: center;
+}
+.category {
+    width: 300px;
+    min-height: 420px;
+    margin: 20px 0px 10px 25px;
+    float: left;
+    -webkit-box-shadow: 3px 6px 2px 0px rgba(35, 31, 32, 0.75);
+    box-shadow: 3px 6px 2px 0px rgba(35, 31, 32, 0.75);
+    border-top-right-radius: 15px;
+    border-bottom-left-radius: 15px;
+}
+.category h2 {
+    margin: 0;
+    padding: 10px;
+    font-weight: 400;
+    font-size: 20px;
+    color: inherit;
+    background-color: #15418C;
+}
+.category img {
+	width: 300px;
+	height: 175px;
+	padding: 0px;
+	margin: 0px -30px -10px -10px;
+}
+.category p {
+	margin: -10px 0px -5px 0px;
+	padding: 10px 10px 10px 10px;
+}
+.category a:hover {
+    text-decoration: underline;
+}
+.category p a {
+    font-weight: bold;
+}
+footer {
+	height: 10px;
+	text-align: center;
+	padding: 0px 0px 10px 0px;
+	width: 100%;
+	margin-right: auto;
+	margin-left: auto;
+	margin-bottom: 10px;
+	float: left;
+	margin-top: 0px;
+}
+footer p {
+    margin: 0px;
+    padding: 5px 0px 5px 0px;
+    color: rgba(255,255,255,1.00);
+    font-size: 12px;
+}
+footer a {
+}
